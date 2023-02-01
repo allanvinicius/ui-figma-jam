@@ -41,7 +41,7 @@ const INITIAL_NODES = [
     },
     data: {},
   },
-] satisfies Node[];
+];
 
 function App() {
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
